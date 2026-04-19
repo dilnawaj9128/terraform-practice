@@ -3,3 +3,4 @@
 terraform.tfstate
 terraform.tfstate.backup
 awscliv2.zip
+aws
