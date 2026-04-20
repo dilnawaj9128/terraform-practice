@@ -1,6 +1,12 @@
-.terraform/
-*.zip
-terraform.tfstate
-terraform.tfstate.backup
+
+cat >> .gitignore << 'EOF'
+# AWS CLI installer
 awscliv2.zip
-aws
+
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.lock.info
+EOF
